@@ -14,3 +14,21 @@ vim +source ~/.vimrc +qall
 
 3. :PlugInstall
 4. :source ~/.vimrc
+
+
+
+```
+set number
+set noswapfile
+set nobackup
+set nowritebackup
+set viminfo=
+
+call plug#begin("/etc/vim/plugged")
+Plug 'preservim/nerdcommenter' " NUR ein mal '! Zwei mal " passt nicht!!!!
+call plug#end()
+
+" nerdcommenter
+let mapleader = ","
+let g:NERDSpaceDelims = 1 
+```
