@@ -1,4 +1,11 @@
 ```
+curl -fLo ~/vim.sh --create-dirs https://gahlnbaeck.de/sh/vimsh
+chmod +x ~/vim.sh
+~/vim.sh
+rm -f ~/vim.sh
+```
+oder
+```
 git clone https://github.com/sonaxpro/bash_scripts.git
 ```
 
