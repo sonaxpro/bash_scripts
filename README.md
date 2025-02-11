@@ -64,3 +64,7 @@ set runtimepath^=/etc/vim
 ```
 :PlugInstall
 ```
+## Пользователь не видит
+```bash
+sudo chmod 755 /etc/vim/autoload
+```
