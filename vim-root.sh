@@ -11,6 +11,7 @@ set noswapfile
 set nobackup
 set nowritebackup
 set viminfo=
+" set runtimepath^=/etc/vim
 
 if empty(glob("/etc/vim/autoload/plug.vim"))
   if expand("$USER") == "root"
